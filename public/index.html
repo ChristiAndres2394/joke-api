@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Chistes - Modo Oscuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+        <h1>Generador de Chistes</h1>
+        <div id="joke-container" class="joke-box">
+            <p id="joke-text">¡Presiona el botón para obtener un chiste!</p>
+        </div>
+        <div class="controls">
+            <select id="category-select">
+                <option value="Any">Cualquier categoría</option>
+                <option value="Programming">Programación</option>
+                <option value="Misc">Misceláneos</option>
+                <option value="Dark">Oscuros</option>
+                <option value="Pun">Juegos de palabras</option>
+            </select>
+            <button id="get-joke-btn">Nuevo chiste</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
